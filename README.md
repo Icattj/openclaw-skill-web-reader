@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: web-reader
 description: Extract clean, readable markdown from any URL using Jina Reader (r.jina.ai). No API key needed for basic use. Use when you need to read a webpage as clean text, extract article content, scrape a page without JavaScript rendering, or get readable content from a URL that web_fetch struggles with.
@@ -57,3 +61,13 @@ curl -s "https://s.jina.ai/your+search+query"
 ## Script
 
 `scripts/read-url.sh` handles URL encoding and error checking.
+
+## Installation
+
+```bash
+cp -r web-reader/ ~/.openclaw/workspace/skills/web-reader/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
